@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>CSS Snippet Cheatsheet</h1>
+        </div>
+        <p id="header-intro">Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
+            to this page! Select any snippet below and it'ss automatically select all thecode for you to copy.</p>
+    </header>
+    <main class="snippets">
+        <!-- flexbox row -->
+        <div class="snippet">
+            <div class="snippet-header">
+                <h1>Flexbox Row</h1>
+            </div>
+            <p class="instruction">Use these three properties to create a Flexbox row layout</p>
+            <div class="code-snippet">
+                <pre>
+    .row { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+                </pre>
+            </div>
+        </div>
+        <div class="snippet">
+            <!-- flexbox column -->
+            <div class="snippet-header">
+                <h1>Flexbox Column</h1>
+            </div>
+            <p class="instruction">Use this to create a Flexbox column layout</p>
+            <div class="code-snippet">
+                <pre>
+    .column {
+        display: flex;
+        flex-direction: column
+        }
+                </pre>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
